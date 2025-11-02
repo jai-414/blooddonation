@@ -1,52 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Blood Donation</title>
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-body { font-family: 'Poppins', sans-serif; background-color: #121212; color: #eee; }
-</style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Donation - Save Lives</title>
+    <meta name="description" content="Connect blood donors with recipients. Register as a donor or request blood in emergencies." />
+    <meta name="author" content="BloodConnect" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-<nav class="flex justify-between items-center p-4 bg-gray-900 shadow-lg">
-  <div class="text-red-500 font-bold text-2xl">Blood Donation</div>
-  <div class="space-x-6">
-    <a href="index.html" class="hover:text-red-500">Home</a>
-    <a href="register.html" class="hover:text-red-500">Register</a>
-    <a href="login.html" class="hover:text-red-500">Login</a>
-    <a href="search.html" class="hover:text-red-500">Search Donors</a>
-  </div>
-</nav>
+    <meta property="og:title" content="BloodConnect - Donate Blood, Save Lives" />
+    <meta property="og:description" content="Connect blood donors with recipients. Register as a donor or request blood in emergencies." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-<section class="text-center py-32 px-4 bg-[url('assets/images/blood-hero.jpg')] bg-cover bg-center">
-  <div class="bg-black/50 p-10 rounded-xl inline-block">
-    <h1 class="text-5xl font-bold text-red-500 mb-4">Save Lives. Donate Blood.</h1>
-    <p class="text-gray-200 mb-6 text-lg">Connect with blood donors and hospitals instantly.</p>
-    <a href="register.html" class="bg-red-500 px-8 py-3 rounded-lg hover:bg-red-600 transition">Get Started</a>
-  </div>
-</section>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-<section class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-6 mt-12">
-  <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
-    <h2 class="text-xl font-semibold mb-2 text-red-500">Find Donors</h2>
-    <p>Search blood donors by blood group and city easily.</p>
-  </div>
-  <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
-    <h2 class="text-xl font-semibold mb-2 text-red-500">Register</h2>
-    <p>Sign up as a donor and help save lives in your community.</p>
-  </div>
-  <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-xl transition transform hover:-translate-y-1">
-    <h2 class="text-xl font-semibold mb-2 text-red-500">Emergency Help</h2>
-    <p>Request blood instantly from nearby donors and hospitals.</p>
-  </div>
-</section>
-
-<footer class="text-center py-6 text-gray-400 bg-gray-900 mt-12">
-  &copy; 2025 Blood Donation Project | Made by Jairaj
-</footer>
-
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
